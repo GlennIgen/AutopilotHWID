@@ -12,7 +12,8 @@ if (!(Test-Path -Path $OutputFolder)) {
    }
 }
 # Download script unless existing.
-$ScriptPath = "$env:TEMP\Get-WindowsAutopilotInfo.ps1"
+#$ScriptPath = "$env:TEMP\Get-WindowsAutopilotInfo.ps1"
+$ScriptPath = "$env:USERPROFILE\Downloads\Get-WindowsAutopilotInfo.ps1"
 if (-not (Test-Path $ScriptPath)) {
    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/GlennIgen/AutopilotHWID/refs/heads/main/Get-WindowsAutoPilotInfo.ps1" -OutFile $ScriptPath
 }
