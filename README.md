@@ -1,3 +1,4 @@
 # AutopilotHWID
-Script to collect Windows HW ID to Autopilot (This repo is created purely to be able to download PS1 file in RAW format)
-Official script by Microsoft https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/
+Script to Collect Windows Hardware ID for Autopilot
+(This repository exists solely to allow downloading the .ps1 file in RAW format.)
+Official script provided by Microsoft - https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/
